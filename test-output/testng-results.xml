@@ -2,18 +2,18 @@
 <testng-results total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-29T01:53:36Z" name="Default suite" finished-at="2022-08-29T01:54:16Z" duration-ms="39856">
+  <suite started-at="2022-08-29T02:58:55Z" name="Default suite" finished-at="2022-08-29T02:59:42Z" duration-ms="46789">
     <groups>
     </groups>
-    <test started-at="2022-08-29T01:53:36Z" name="Default test" finished-at="2022-08-29T01:54:16Z" duration-ms="39856">
+    <test started-at="2022-08-29T02:58:55Z" name="Default test" finished-at="2022-08-29T02:59:42Z" duration-ms="46789">
       <class name="com.testscripts.TC_1_AddOnTodos">
-        <test-method signature="tc_addtodo_001()[pri:0, instance:com.testscripts.TC_1_AddOnTodos@67a20f67]" started-at="2022-08-29T11:53:36Z" name="tc_addtodo_001" finished-at="2022-08-29T11:53:53Z" duration-ms="16731" status="PASS">
+        <test-method signature="tc_addtodo_001()[pri:0, instance:com.testscripts.TC_1_AddOnTodos@67a20f67]" started-at="2022-08-29T12:58:55Z" name="tc_addtodo_001" finished-at="2022-08-29T12:59:16Z" duration-ms="20682" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_addtodo_001 -->
       </class> <!-- com.testscripts.TC_1_AddOnTodos -->
       <class name="com.testscripts.TC_2_UpdateTodo">
-        <test-method signature="tc_updateaapplication()[pri:0, instance:com.testscripts.TC_2_UpdateTodo@48ae9b55]" started-at="2022-08-29T11:53:53Z" name="tc_updateaapplication" finished-at="2022-08-29T11:54:16Z" duration-ms="23115" status="PASS">
+        <test-method signature="tc_updateaapplication()[pri:0, instance:com.testscripts.TC_2_UpdateTodo@48ae9b55]" started-at="2022-08-29T12:59:16Z" name="tc_updateaapplication" finished-at="2022-08-29T12:59:42Z" duration-ms="26097" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_updateaapplication -->

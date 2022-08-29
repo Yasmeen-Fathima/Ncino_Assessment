@@ -5,7 +5,6 @@
 <classes>
 <class name="com.testscripts.TC_1_AddOnTodos"/>
 <class name="com.testscripts.TC_2_UpdateTodo"/>
-
 </classes>
 </test> <!-- Default test -->
 </suite> <!-- Default suite -->

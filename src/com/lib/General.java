@@ -55,7 +55,6 @@ public class General extends Global{
 		Thread.sleep(3000);
 		item = driver.findElement(itemXpath);
 	    act = new Actions(driver);
-	    Thread.sleep(3000);
 	    Log.info("Updating the Todo list");
 		updateact = act.moveToElement(item).doubleClick().click().build();
 		updateact.perform();
