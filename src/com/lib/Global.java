@@ -21,7 +21,7 @@ public class Global {
 	static Action updateact; //interface to represent single user action, in this case to perform doubleClick()
 	static Robot r; //object to enter key values
 	static String url = "http://todomvc.com";
-	static String chromedriverpath = "D:\\Drivers\\chromedriver_win32\\chromedriver1.exe";
+	static String chromedriverpath = "chromedriver1.exe";
 	static By labXpath = By.xpath("//*[@id=\"tabsContent\"]/paper-tab[3]/div"); //using relative xpath
 	static By angularText = By.linkText("Angular 2.0"); //using link text
 	static By todoXpath = By.xpath("/html/body/todo-app/section/header/input"); //using absolute xpath
