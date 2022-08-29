@@ -1,0 +1,23 @@
+2022-08-29 11:48:10,304 INFO  [Log] Application Opened 
+2022-08-29 11:48:12,004 INFO  [Log] Adding the Todo list 
+2022-08-29 11:48:19,300 INFO  [Log] Getting the local storage information 
+2022-08-29 11:48:19,997 INFO  [Log] Application Closed 
+2022-08-29 11:48:26,688 INFO  [Log] Application Opened 
+2022-08-29 11:48:26,689 INFO  [Log] Writing the information into Local Storage 
+2022-08-29 11:48:38,419 INFO  [Log] Updating the Todo list 
+2022-08-29 11:48:45,249 INFO  [Log] Application Closed 
+2022-08-29 11:50:09,113 INFO  [Log] Application Opened 
+2022-08-29 11:50:09,965 INFO  [Log] Adding the Todo list 
+2022-08-29 11:50:16,449 INFO  [Log] Getting the local storage information 
+2022-08-29 11:50:17,183 INFO  [Log] Application Closed 
+2022-08-29 11:50:25,177 INFO  [Log] Application Opened 
+2022-08-29 11:50:25,177 INFO  [Log] Writing the information into Local Storage 
+2022-08-29 11:50:35,199 INFO  [Log] Updating the Todo list 
+2022-08-29 11:53:44,770 INFO  [Log] Application Opened 
+2022-08-29 11:53:45,816 INFO  [Log] Adding the Todo list 
+2022-08-29 11:53:52,087 INFO  [Log] Getting the local storage information 
+2022-08-29 11:53:53,540 INFO  [Log] Application Closed 
+2022-08-29 11:53:59,597 INFO  [Log] Application Opened 
+2022-08-29 11:53:59,597 INFO  [Log] Writing the information into Local Storage 
+2022-08-29 11:54:09,836 INFO  [Log] Updating the Todo list 
+2022-08-29 11:54:16,657 INFO  [Log] Application Closed 
