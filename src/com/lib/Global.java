@@ -15,7 +15,7 @@ import java.awt.event.KeyEvent;
 public class Global {
 	static ChromeOptions options;
 	static String str;
-	static RemoteWebDriver driver; //to access the browser
+	static WebDriver driver; //to access the browser
 	static WebElement item; //
 	static Actions act;//object to perform mouse over action
 	static Action updateact; //interface to represent single user action, in this case to perform doubleClick()

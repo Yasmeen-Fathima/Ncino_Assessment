@@ -4,6 +4,8 @@ package com.lib;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.utility.Log;
 
@@ -13,9 +15,13 @@ import java.time.Duration;
 public class General extends Global{
 	
 	public void openapplication()  {
+		//Qn: What does setProperty do?
 		System.setProperty("webdriver.chrome.driver", chromedriverpath);
+		//Qn: What is happening here
 		driver = new ChromeDriver();
+		//difference between get() and navigate().to()
 		driver.get(url);
+		//
 		driver.manage().window().maximize();
 		Log.info("Application Opened");
 		
@@ -56,9 +62,11 @@ public class General extends Global{
 		item = driver.findElement(itemXpath);
 	    act = new Actions(driver);
 	    Log.info("Updating the Todo list");
-		updateact = act.moveToElement(item).doubleClick().click().build();
+		updateact = act.moveToElement(item).doubleClick().build();
 		updateact.perform();
 		Thread.sleep(3000);
+		
+		//System.out.println();
 		
 		r = new Robot();
 				
@@ -78,8 +86,9 @@ public class General extends Global{
 		r.keyRelease(D);
 		r.keyPress(enter);
 		r.keyRelease(enter);
-		
-		Thread.sleep(3000);
+		WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(3));
+		wait.until(ExpectedConditions.textToBePresentInElement(item,"Updated"));
+		//Thread.sleep(3000);
 		
 	}
 	
